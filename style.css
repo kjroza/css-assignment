@@ -5,6 +5,7 @@
   font-size: 2em;
 }
 
+
 /* Section 1: Selectors in CSS + Box Model */
 
 
@@ -13,6 +14,11 @@ Task 1:  Targeting Elements by Tag Name + Border
 - Select all 'p' tags and change the font-size to 16px
 - Finally, add a border around all p elements with a 1px solid line of any color you choose
 */
+
+p {
+  font-size: 16px;  
+  border: solid 1px rgb(172, 23, 113);
+}
 
 
 /*
@@ -23,6 +29,15 @@ Task 2:  Targeting Elements by Class + Padding
 - Give it 20px of padding - note that the background color 'grows' around the text
 */
 
+.prettybackground {background-color:#FFD6BA;}
+
+nav {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
 
 
 /*
@@ -32,6 +47,10 @@ Task 3:  Targeting Elements by ID + Margin
 - Finally, add 15px of margin to the bottom of that element. Note that it pushes the other inputs down
 */
 
+#name {
+  border-radius: 2em;
+  margin: 15px;
+}
 
 /*
 Task 4:  Targeting Elements by Descendant Selectors
@@ -41,7 +60,10 @@ Task 4:  Targeting Elements by Descendant Selectors
   hyperlinks)
 */
 
-
+a:link {
+  text-decoration: none;
+  color: rgb(128, 17, 0);
+}
 
 /* End of Section 1: Selectors in CSS */
 
@@ -53,7 +75,10 @@ Task 4:  Targeting Elements by Descendant Selectors
 - Give it 5px of padding as well to space them out
 */
 
-
+.inline-block {
+  display:inline-block;
+  padding: 5px;
+}
 
 /* Task 2: position: relative
 - Change the positioning of the .hero class to "relative" 
@@ -61,6 +86,10 @@ Task 4:  Targeting Elements by Descendant Selectors
 - Give it text-align: center to make the text centered on your page
 */
 
+.relative {
+  position: relative;
+  text-align: center;
+}
 
 /* Task 3: Display Grid
 - Change the display property of the .features class to "grid"
@@ -68,12 +97,25 @@ Task 4:  Targeting Elements by Descendant Selectors
 - Create a gap of 20px using the 'gap' property
 */
 
+.grid {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
 
 /* Task 4: Position Fixed 
 - Change the positioning of the footer section to "fixed" 
 - Adjust its bottom and left values. 
 - Note that wherever you scroll on the page, it remains fixed on your viewport! 
 */
+
+p.fixed {
+  position:fixed;
+  bottom: 0;
+  left: 50;
+  width: 300px;
+}
 
 
 /* End of Section 2: Display and Positioning in CSS */
