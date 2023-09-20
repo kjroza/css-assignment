@@ -29,6 +29,7 @@ Task 2:  Targeting Elements by Class + Padding
 - Give it 20px of padding - note that the background color 'grows' around the text
 */
 
+/* TODO: from Felicia Rosemond - the padding should be inside the .prettybackground  -6.25*/
 .prettybackground {background-color:#FFD6BA;}
 
 nav {
@@ -60,6 +61,7 @@ Task 4:  Targeting Elements by Descendant Selectors
   hyperlinks)
 */
 
+/* TODO: this is not how you select descendannt (child) selectors it should be nav li a -12.5*/
 a:link {
   text-decoration: none;
   color: rgb(128, 17, 0);
@@ -85,7 +87,7 @@ a:link {
 - Play around with its top, right, bottom, or left properties to position it wherever you want
 - Give it text-align: center to make the text centered on your page
 */
-
+/* TODO: the style should be for the .hero class that should be the first line -12.5 */
 .relative {
   position: relative;
   text-align: center;
@@ -97,6 +99,7 @@ a:link {
 - Create a gap of 20px using the 'gap' property
 */
 
+/* TODO: the style is for the .features class that should be the first line  -12.5*/
 .grid {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
